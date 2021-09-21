@@ -18,6 +18,7 @@
   "homepage": "https://github.com/bryan-emerson/fullStack#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.7",
     "nodemon": "^2.0.12"
   }
 }
