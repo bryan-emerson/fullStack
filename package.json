@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bryan-emerson/fullStack/issues"
   },
-  "homepage": "https://github.com/bryan-emerson/fullStack#readme"
+  "homepage": "https://github.com/bryan-emerson/fullStack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
 }
