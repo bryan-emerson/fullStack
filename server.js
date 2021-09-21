@@ -1,11 +1,13 @@
-let app = require('./app');
-let express = require('express');
-let mongoose = require('mongoose');
+// let app = require('./app');
+// let express = require('express');
+// let mongoose = require('mongoose');
 
-app.set('port', process.env.PORT || 9000);
-let server = app.listen(app.get('port'));
+// let server = app.listen(9500)
 
-server.on('listening', ()=> console.log("Server is listening"));
-server.on('error', error=> console.error("Server is sad", error));
+// app.set('port', process.env.PORT || 9000);
+// let server = app.listen(app.get('port'));
 
-module.exports = server;
+// server.on('listening', ()=> console.log("Server is listening"));
+// server.on('error', error=> console.error("Server is sad", error));
+
+// module.exports = server
